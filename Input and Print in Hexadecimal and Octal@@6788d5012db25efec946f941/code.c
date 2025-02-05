@@ -2,10 +2,11 @@
 
 int main(){
     int a;
+    char b[];
     printf("");
-    scanf("%d", &a);
+    scanf("%d %c", &a, &b);
     printf("Hexadecimal: %d %x\n", a);
-    printf("Octal: %d %o\n", a);
+    printf("Octal: %c %o\n", b);
     return 0;
 
 
