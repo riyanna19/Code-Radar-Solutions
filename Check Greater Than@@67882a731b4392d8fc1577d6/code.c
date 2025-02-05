@@ -5,8 +5,9 @@ int main(){
     int b;
     printf("");
     scanf("%d %d", &a, &b);
-    
     printf("True\n", a > b);
+    printf("False\n", a < b);
+
     return 0;
 
 }
