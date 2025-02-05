@@ -5,10 +5,10 @@ int main(){
     int b;
     string c=("");
     printf("");
-    scanf("%s, %d, %s", &a &b &c);
+    scanf("%s, %d, %s", a, &b, c);
     printf("Name: %s\n", a);
     printf("Age: %d\n", b);
-    printf("Hobby: %s", c);
+    printf("Hobby: %s\n", c);
 
     return 0;
         
