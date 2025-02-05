@@ -5,8 +5,8 @@ int main(){
     float b;
     float c;
     printf("");
-    scanf("%f %f", &a &b);
-    float c=(a*b);
+    scanf("%f %f", &a, &b);
+     c=(a*b);
     printf("Product: %.2f %.2f", c);
     return 0;
 }
