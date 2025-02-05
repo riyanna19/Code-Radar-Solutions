@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 int main(){
-    string a=("");
+    char a=[];
     int b;
-    string c=("");
+    char c=[];
     printf("");
     scanf("%s, %d, %s", a, &b, c);
     printf("Name: %s\n", a);
