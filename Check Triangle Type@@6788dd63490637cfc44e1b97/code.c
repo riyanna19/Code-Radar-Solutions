@@ -6,7 +6,7 @@ int main(){
     int c;
     scanf("%d %d %d", &a, &b, &c);
     if(a==b==c){
-        printf("Scalenel");
+        printf("Scalene");
     }else if(a==b && b!=c){
         printf("Isosceles");
     }else{
