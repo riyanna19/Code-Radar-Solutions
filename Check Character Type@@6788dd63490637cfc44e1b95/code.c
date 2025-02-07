@@ -7,7 +7,7 @@ int main(){
     if(rb>0 && rb<9){
         printf("Digit\n");
     }else if(rb>='a' && rb<='z' || rb>='A' && rb<='Z'){
-        if(ch=='a' || ch=='e' || ch=='i' || ch=='o' || ch=='u'){
+        if(rb=='a' || rb=='e' || rb=='i' || rb=='o' || rb=='u'){
             printf("Vowel\n");
             printf("Consonants\n");
         }
