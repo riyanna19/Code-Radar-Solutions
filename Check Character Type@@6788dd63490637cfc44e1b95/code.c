@@ -9,10 +9,12 @@ int main(){
     }else if(rb>='a' && rb<='z' || rb>='A' && rb<='Z'){
         if(rb=='a' || rb=='e' || rb=='i' || rb=='o' || rb=='u'){
             printf("Vowel\n");
-            printf("Consonants\n");
+           
         }
     }else{
-        printf("Special Characters")
+        printf("Special Characters");
+    }else{
+        printf("Consonant");
     }
     return 0;
 }
