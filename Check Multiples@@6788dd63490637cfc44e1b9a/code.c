@@ -5,9 +5,10 @@ int main(){
     int b;
     scanf("%d %d", &a, &b);
     if(a/b){
-        printf("Yes");
-    }else{
         printf("No");
+    }else{
+        printf("Yes");
     }
+    return 0;
 
 }
