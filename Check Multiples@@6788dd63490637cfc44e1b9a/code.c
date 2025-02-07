@@ -4,10 +4,10 @@ int main(){
     int a;
     int b;
     scanf("%d %d", &a, &b);
-    if(a/b){
-        printf("No");
-    }else{
+    if(a%b==0){
         printf("Yes");
+    }else{
+        printf("No");
     }
     return 0;
 
