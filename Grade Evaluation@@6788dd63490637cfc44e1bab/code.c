@@ -9,9 +9,9 @@ int main(){
         printf("Good");
     }else if(a=='C'){
         printf("Average");
-    }else if(a=='C'){
+    }else if(a=='D'){
         printf("Below Average");
-    }else if(a=='C'){
+    }else if(a=='E'){
         print("Fail");
     }else{
         printf("Invalid grade");
