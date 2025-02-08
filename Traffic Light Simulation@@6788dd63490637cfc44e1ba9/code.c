@@ -2,6 +2,7 @@
 
 int main(){
     int a;
+    a=('R', 'G', 'Y');
     scanf("%d", &a);
     if(a=='R'){
         printf("Stop");
