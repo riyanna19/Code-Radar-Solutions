@@ -12,11 +12,11 @@ int main(){
     }else if(a==4){
         printf("Thursday");
     }else if(a==5){
-        printf("Thursday");
+        printf("Friday");
     }else if(a==6){
-        printf("Thursday");
+        printf("Saturday");
     }else if(a==7){
-        printf("Thursday");
+        printf("Sunday");
     }else{
         printf("Invalid");
     } 
