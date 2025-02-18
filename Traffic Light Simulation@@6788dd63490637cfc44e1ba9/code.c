@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 int main(){
-    int a;
+    char a;
     a=('R', 'G', 'Y');
-    scanf("%d", &a);
+    scanf("%c", &a);
     if(a=='R'){
         printf("Stop");
     }else if(a=='G'){
