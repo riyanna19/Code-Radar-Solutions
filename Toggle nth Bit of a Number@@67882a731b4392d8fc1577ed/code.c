@@ -5,7 +5,7 @@ unsigned int toggleNthBit(unsigned int a, int n){
 int main(){
     unsigned int a;
     int n;
-    scanf("%d" &a);
+    scanf("%u" &a);
     scanf("%d", &n);
     unsigned int result=toggleNthBit(a, n);
     printf("%u", result);
