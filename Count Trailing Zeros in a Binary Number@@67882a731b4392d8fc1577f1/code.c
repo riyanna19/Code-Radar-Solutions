@@ -7,7 +7,7 @@ int main(){
         printf("32");
         return 0;
     }
-    while ((a&71)==0){
+    while ((a&1)==0){
         count++;
         a>>=1;
     }
