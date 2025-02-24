@@ -1,6 +1,6 @@
 #include <stdio.h>
 int clearNthBit(int a, int n){
-    return (a >> n) & ~1;
+    return a & ~(1 << n);
 }
 int main(){
     int a, n, bit;
