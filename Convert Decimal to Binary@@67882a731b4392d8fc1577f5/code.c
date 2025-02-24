@@ -17,5 +17,6 @@ int main(){
     if(!leadingZeroes){
         printf("%d",bit);
     }
-    printf("\n");
+}
+printf("\n");
 }
