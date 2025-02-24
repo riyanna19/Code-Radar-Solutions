@@ -32,7 +32,7 @@ int main() {
     int n;
 
     // Input the size of the diamond
-    printf("Enter the number of rows for the top half of the diamond: ");
+    printf(" ");
     scanf("%d", &n);
 
     // Print the diamond
