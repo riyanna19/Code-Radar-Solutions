@@ -8,7 +8,7 @@ int main(){
         case '+':
             printf("%d\n", a+b);
             break;
-    }   case '-':
+        case '-':
             printf("%d\n", a-b);
             break; 
         case '*':
@@ -24,5 +24,5 @@ int main(){
             break;
         default:
             printf("Error: Invalid Operator\n");
-
+    }
 }
