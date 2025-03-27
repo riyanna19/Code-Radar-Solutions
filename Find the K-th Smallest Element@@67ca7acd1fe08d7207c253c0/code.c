@@ -20,5 +20,5 @@ int kthSmallest(int arr[], int n, int k) {
         return -1; 
     }
     selectionSort(arr, n, k); 
-    return arr[k - 1]; 
+    return arr[k-1];
 }
