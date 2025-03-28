@@ -1,5 +1,5 @@
 #include<stdio.h>
-int searchRotatedArray(int arr[], int n, int traget){
+int searchRotatedArray(int arr[], int n, int target){
     int left = 0, right = n-1;
     while(left <= right){
         int mid = left + (right - left)/2;
