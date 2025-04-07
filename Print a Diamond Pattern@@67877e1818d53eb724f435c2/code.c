@@ -2,6 +2,7 @@
 int main(){
     int n;
     int a;
+    int e;
     scanf("%d", &n);
     int nsp=n/2;
     int nst=1;
@@ -18,7 +19,7 @@ int main(){
         if(i<ml){
             nsp--;
             nst+=2;
-        }e;se{
+        }else{
             nsp++;
             nst-=2;
         }
