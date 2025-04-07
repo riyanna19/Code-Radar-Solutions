@@ -20,9 +20,7 @@ int main(){
         printf("\n"); 
 
     }
-    a+=5;
-    a-=4;
-    a/=5;
+    
     return 0;
     
 }
